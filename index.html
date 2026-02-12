@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman: O Cavaleiro das Trevas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Batman_logo.svg/240px-Batman_logo.svg.png" alt="Batman Logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#trailer">Trailer</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="O CAVALEIRO DAS TREVAS">O CAVALEIRO DAS TREVAS</h1>
+            <p class="subtitle">A lenda começa quando a noite cai</p>
+            <button class="btn-primary" id="watchBtn">Assistir Agora</button>
+        </div>
+        <div class="bat-signal"></div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">A Saga do Morcego</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>Quando a ameaça conhecida como Coringa emerge do submundo do crime e causa caos nas pessoas de Gotham, Batman deve enfrentar um dos maiores testes psicológicos e físicos de sua habilidade de combater a injustiça.</p>
+                    <p>Bruce Wayne deve reconciliar sua dupla identidade como vigilante mascarado e playboy bilionário enquanto enfrenta seu maior inimigo.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>9.0</h3>
+                            <p>Rating IMDb</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>152</h3>
+                            <p>Minutos</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2008</h3>
+                            <p>Lançamento</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <div class="image-frame">
+                        <img src="https://rollingstone.com.br/wp-content/uploads/batman_o_cavaleiro_das_trevas_2.jpg" alt="Batman" class="batman-img">
+                        <div class="glow-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2 class="section-title">Galeria</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item" style="background-image: url('https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/e88be4f8-2366-483c-8e67-677c2f4dd88b/3c04e293563623f1d740d3dcb2bb319e9e9204dc.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom');">
+                    <div class="galeria-overlay">
+                        <p>The Dark Knight</p>
+                    </div>
+                </div>
+                <div class="galeria-item" style="background-image: url('https://m.media-amazon.com/images/M/MV5BMTRkYjU1MjQtODMxMS00YTNmLThkOTYtZThlMjE4YWZkZDI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');">
+                    <div class="galeria-overlay">
+                        <p>Gotham City</p>
+                    </div>
+                </div>
+                <div class="galeria-item" style="background-image: url('https://i.pinimg.com/474x/5d/b0/97/5db097d820a966ad814dd3c5211ff48c.jpg');">
+                    <div class="galeria-overlay">
+                        <p>Batman in Action</p>
+                    </div>
+                </div>
+                <div class="galeria-item" style="background-image: url('https://wallpaper.forfun.com/fetch/b5/b5adca5d75dc886e095deb0a48c97dfa.jpeg');">
+                    <div class="galeria-overlay">
+                        <p>Dark Hero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trailer Section -->
+    <section id="trailer" class="trailer">
+        <div class="container">
+            <h2 class="section-title">Trailer Oficial</h2>
+            <div class="video-container">
+                <div class="video-placeholder" style="background-image: url('https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=1000&q=80');">
+                    <div class="video-overlay"></div>
+                    <div class="play-button">▶</div>
+                    <p>Clique para assistir o trailer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 DC Comics & Warner Bros. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Assista ao Filme</h2>
+            <p>Disponível em todas as plataformas de streaming</p>
+            <div class="streaming-platforms">
+                <button class="platform-btn">Netflix</button>
+                <button class="platform-btn">Prime Video</button>
+                <button class="platform-btn">HBO Max</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
